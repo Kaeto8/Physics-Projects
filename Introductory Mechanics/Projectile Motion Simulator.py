@@ -14,7 +14,7 @@ res = input("Do you want to factor in air resistance? (y or n): ")
 
 if res == 'y':
     shape_dict = {
-        "shape": 0.47, "half-sphere": 0.42,
+        "sphere": 0.47, "half-sphere": 0.42,
         "cone": 0.5, "cube": 1.05, "long cylinder": 0.82,
         "short cylinder": 1.15, "streamlined body": 0.04
     }
